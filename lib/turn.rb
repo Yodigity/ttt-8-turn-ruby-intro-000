@@ -29,8 +29,6 @@ def valid_move?(board, pos)
     return true
   else
     return false
-    display_board(board)
-    turn(board)
   end
 end
 
