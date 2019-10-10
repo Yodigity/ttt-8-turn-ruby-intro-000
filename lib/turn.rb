@@ -12,6 +12,7 @@ end
 
 
 def input_to_index(input)
+  num = input.to_i
   pos = input -= 1
 end
 
