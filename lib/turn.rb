@@ -13,7 +13,7 @@ end
 
 def input_to_index(input)
   num = input.to_i
-  pos = input -= 1
+  pos = num -= 1
 end
 
 def position_taken?(board, place)
