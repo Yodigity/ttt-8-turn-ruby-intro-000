@@ -30,6 +30,7 @@ def valid_move?(board, pos)
   else
     return false
     puts "I'm sorry, that is outside the board!"
+    display_board(board)
     turn(board)
   end
 end
