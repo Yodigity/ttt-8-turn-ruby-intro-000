@@ -18,7 +18,7 @@ end
 def position_taken?(board, place)
   if board[place] == " " || board[place] == "" || board[place] == nil
     return true
-  else 
+  else
     return false
   end
 end
@@ -26,9 +26,7 @@ end
 def valid_move?(pos)
   if pos >=0 && pos <= 8 && position_taken?(board, )
     return true
-  else 
+  else
     return false
   end
 end
-  
-  
