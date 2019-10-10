@@ -33,11 +33,7 @@ def valid_move?(board, pos)
 end
 
 def move(board, index, char="X")
-  puts "Please enter a number from 1-9"
-  choice = gets.strip
-  pos = input_to_index(choice)
-  puts pos
-  board[pos] = char
+  board[index] = char
 end
 
 def turn(board)
