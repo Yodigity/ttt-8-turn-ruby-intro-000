@@ -34,3 +34,5 @@ end
 def move(board, index, char = "X")
   puts "Please enter a number from 1-9"
   choice = gets.strip
+  input_to_index(choice)
+end
