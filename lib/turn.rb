@@ -24,9 +24,13 @@ def position_taken?(board, place)
 end
 
 def valid_move?(pos)
-  if pos >=0 && pos <= 8 && position_taken?(board, )
+  if pos >=0 && pos <= 8 && position_taken?(board, pos)
     return true
   else
     return false
   end
 end
+
+def move(board, index, char = "X")
+  puts "Please enter a number from 1-9"
+  choice = gets.strip
